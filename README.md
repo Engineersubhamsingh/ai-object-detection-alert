@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛡️ AI Object Detection with Smart Alert System
 
-## Getting Started
+A real-time web-based AI application that uses your device’s webcam to detect objects using **TensorFlow.js (COCO-SSD)** model.  
+It intelligently triggers an alarm when both a **knife** and a **person** are detected — acting as a basic **safety surveillance system**.
 
-First, run the development server:
+---
+
+## 🚀 Demo
+
+🔗 Live Demo: *[Coming Soon]*  
+📁 GitHub Repo: [https://github.com/Engineersubhamsingh/ai-object-detection-alert](https://github.com/Engineersubhamsingh/ai-object-detection-alert)
+
+---
+
+## 🧠 Features
+
+- ✅ Real-time object detection using webcam
+- ✅ Displays bounding boxes and labels
+- ✅ Alarm alert when both **knife** and **person** detected simultaneously
+- ✅ Works directly in browser (no download needed)
+- ✅ Built with modern React + Next.js stack
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology      | Use                     |
+|----------------|--------------------------|
+| React.js        | UI Components            |
+| Next.js         | React Framework          |
+| TensorFlow.js   | AI/ML object detection   |
+| COCO-SSD        | Pretrained detection model |
+| React Webcam    | Access webcam in browser |
+| HTML5 Canvas    | Draw prediction overlays |
+
+---
+
+## 📸 Screenshots
+
+*(Add your screenshots or screen recording GIF here)*  
+You can use tools like Loom / OBS Studio for a quick demo.
+
+---
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/Engineersubhamsingh/ai-object-detection-alert.git
+cd ai-object-detection-alert
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
